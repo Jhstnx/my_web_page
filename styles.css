@@ -1,31 +1,65 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .picture {
-    border-radius: 45px;
-    border: 3px solid black;
-    width: 250px;
-  }
-  
-  .list {
-    list-style: none;
-    width: 30%;
-  }
-  
-  .item {
-    margin-top: 5px;
-    text-align: center;
-    border-bottom: 5px solid skyblue;
-    border-radius: 8px;
-    padding: 8px;
-    transition: all 200ms;
-  }
-  
-  .item:hover {
-    color: skyblue;
-    cursor: pointer;
-    background-color: grey;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture {
+  border-radius: 45px;
+  border: 3px solid black;
+  width: 250px;
+}
+
+.hobbies {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.list {
+  list-style: none;
+  width: 30%;
+}
+
+.item {
+  margin-top: 5px;
+  text-align: center;
+  border-bottom: 5px solid skyblue;
+  border-radius: 8px;
+  padding: 8px;
+  transition: all 200ms;
+}
+
+.item:hover {
+  color: skyblue;
+  cursor: pointer;
+  background-color: grey;
+}
+
+.videogames {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 250px;
+  margin: 10px auto;
+  border: 5px solid skyblue;
+  border-radius: 5px;
+}
+
+.character {
+  width: 250px;
+}
+
+.text {
+  padding: 5px;
+}
