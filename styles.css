@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -62,4 +66,18 @@
 
 .text {
   padding: 5px;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  text-align: center;
 }
