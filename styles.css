@@ -15,6 +15,7 @@ background-attachment: fixed;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  color: white; 
 }
 
 .picture {
@@ -33,12 +34,14 @@ background-attachment: fixed;
 .title {
   margin-left: 20px;
   margin-top: 20px;
+  color: white;
 }
 
 .list {
   list-style: none;
   width: 30%;
   margin-top: 50px;
+  color: white;
 }
 
 .item {
@@ -53,7 +56,7 @@ background-attachment: fixed;
 .item:hover {
   color: skyblue;
   cursor: pointer;
-  background-color: grey;
+  background-color: black;
 }
 
 .videogames {
@@ -61,6 +64,7 @@ background-attachment: fixed;
   flex-wrap: wrap;
   gap: 5px; 
   margin-top: 70px;
+  color: white;
 }
 
 .title2 {
@@ -68,6 +72,7 @@ background-attachment: fixed;
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
+  color: white;
 }
 
 .card {
