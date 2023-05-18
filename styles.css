@@ -40,6 +40,7 @@ body {
   margin-left: 20px;
   margin-top: 10px;
   color: white;
+  font-size: 40px;
 }
 
 .list {
@@ -84,6 +85,7 @@ body {
   flex-direction: column;
   margin-top: 300px;
   color: white;
+  font-size: 40px;
 }
 
 .card {
@@ -185,5 +187,9 @@ footer {
 @media (max-width: 360px) {
   .list {
     width: 70%;
+  }
+
+  .text {
+    font-size: 20px;
   }
 }
